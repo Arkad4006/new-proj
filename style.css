@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 90px;
+    background-color: #4B95A1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    margin-left: 30px;
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.menu ul li:hover{
+    color: black;
+    cursor: pointer;
+    transition: .3s;
+}
+.section1{
+    width: 100%;
+    height: 1000px;
+    background-image: url("Layer 1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.section1 h1{
+    font-size: 44px;
+    line-height: 58px;
+    color: #E4E4E4;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 240px;
+}
+
+
+.section1 button{
+    width: 333px;
+    height: 66px;
+    border-radius: 3px;
+    background-color: transparent;
+    text-align: center;
+    border: 3px solid #afb1b4;
+    color: #E4E4E4;
+    font-size: 30px;
+    line-height: 58px;
+    margin-top: 100px;
+}
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section1 button:hover{
+    background-color: #4B95A1;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .5s;
+    color: black;
+}
+
+.rad{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.rad div{
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.rad div:hover{
+    background-color: #69728C;
+    transition: .3s;
+}
